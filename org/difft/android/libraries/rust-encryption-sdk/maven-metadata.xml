@@ -3,13 +3,15 @@
   <groupId>org.difft.android.libraries</groupId>
   <artifactId>rust-encryption-sdk</artifactId>
   <versioning>
-    <latest>0.1.2</latest>
-    <release>0.1.2</release>
+    <latest>0.1.3-SNAPSHOT</latest>
+    <release>0.1.3</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.1</version>
       <version>0.1.2</version>
+      <version>0.1.3</version>
+      <version>0.1.3-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20231010094314</lastUpdated>
+    <lastUpdated>20231010101549</lastUpdated>
   </versioning>
 </metadata>

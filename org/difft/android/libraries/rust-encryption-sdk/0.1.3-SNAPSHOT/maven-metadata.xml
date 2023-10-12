@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.difft.android.libraries</groupId>
+  <artifactId>rust-encryption-sdk</artifactId>
+  <version>0.1.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20231010.101548</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20231010101548</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.3-20231010.101548-1</value>
+        <updated>20231010101548</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.3-20231010.101548-1</value>
+        <updated>20231010101548</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.1.3-20231010.101548-1</value>
+        <updated>20231010101548</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
