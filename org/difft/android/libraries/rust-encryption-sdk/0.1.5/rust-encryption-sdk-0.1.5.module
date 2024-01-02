@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "rust-encryption-sdk",
+    "version": "0.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rust-encryption-sdk-0.1.5.aar",
+          "url": "rust-encryption-sdk-0.1.5.aar",
+          "size": 683236,
+          "sha512": "5bcdf3477c728b2e56033beb578390ad24d29261b5d587ee513e0d611b2201bf7a86bd5cf0df3ab5ec0103a8d9bf8768e910dd4842acb2473c6b6ef3ce555bc5",
+          "sha256": "11a069450694df56392b9b4b5cf862220772a9099cf51001b5776ae9b9345e5a",
+          "sha1": "55e4d5b4017154cd9c563777b85242fa2fc81f87",
+          "md5": "c916f2199d101b485bbe2a42ded6c611"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.13.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "jna",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rust-encryption-sdk-0.1.5.aar",
+          "url": "rust-encryption-sdk-0.1.5.aar",
+          "size": 683236,
+          "sha512": "5bcdf3477c728b2e56033beb578390ad24d29261b5d587ee513e0d611b2201bf7a86bd5cf0df3ab5ec0103a8d9bf8768e910dd4842acb2473c6b6ef3ce555bc5",
+          "sha256": "11a069450694df56392b9b4b5cf862220772a9099cf51001b5776ae9b9345e5a",
+          "sha1": "55e4d5b4017154cd9c563777b85242fa2fc81f87",
+          "md5": "c916f2199d101b485bbe2a42ded6c611"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "rust-encryption-sdk-0.1.5-sources.jar",
+          "url": "rust-encryption-sdk-0.1.5-sources.jar",
+          "size": 18853,
+          "sha512": "3f3fdbc0c886b53048474e09838287f383726a80c634bccf408588f7a7004a515a07c6dce028e5f7e2642cf21a500e146b1bd0d90c21f18d54f44b1d2b233d5f",
+          "sha256": "cf323a5dcdb1745e6f93c13b4cca5c9829a4d92cf560f85232fb4c13bfd877e3",
+          "sha1": "9d9ec05ee12bfaa189199b392f2c30b912dbebdb",
+          "md5": "e75c966f3330e26a988fcf32da1beede"
+        }
+      ]
+    }
+  ]
+}
