@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "wu.seal",
+    "module": "kscript-tool",
+    "version": "1.1.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.sealwu",
+          "module": "kscript-tools",
+          "version": {
+            "requires": "1.0.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kscript-tool-1.1.21.jar",
+          "url": "kscript-tool-1.1.21.jar",
+          "size": 124518,
+          "sha512": "3ae7d4f73d5e9f8fe49d36ed3d328c0e776ad7861746ccc0b121aff5b53bd507fd961b6c98f5109ffc1e80f97949aaa94717c1a16c8e4ccec140bf9dc6915c9b",
+          "sha256": "90422dd01052e4a0f06e7d2e106760d68962ea2bddfa419f5c0fb3561811673f",
+          "sha1": "27f2ad6866c7c696e1c8ac0498c535ea726e0c31",
+          "md5": "cc76303a16d18b3666c504e49741ecee"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.sealwu",
+          "module": "kscript-tools",
+          "version": {
+            "requires": "1.0.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kscript-tool-1.1.21.jar",
+          "url": "kscript-tool-1.1.21.jar",
+          "size": 124518,
+          "sha512": "3ae7d4f73d5e9f8fe49d36ed3d328c0e776ad7861746ccc0b121aff5b53bd507fd961b6c98f5109ffc1e80f97949aaa94717c1a16c8e4ccec140bf9dc6915c9b",
+          "sha256": "90422dd01052e4a0f06e7d2e106760d68962ea2bddfa419f5c0fb3561811673f",
+          "sha1": "27f2ad6866c7c696e1c8ac0498c535ea726e0c31",
+          "md5": "cc76303a16d18b3666c504e49741ecee"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kscript-tool-1.1.21-sources.jar",
+          "url": "kscript-tool-1.1.21-sources.jar",
+          "size": 26781,
+          "sha512": "f63ffd8d5803804811c3f922edc92310c96a4611083c552cc2fc3719b60af25dc74a3328bd54b25d0b4fcf460aaa57c16eba3827df30d8b02d57d6331029447d",
+          "sha256": "5a1c6180d766eb7b7fe6b42f7d3777f7a0dceb582e5c6de2114105d1a8158a1a",
+          "sha1": "11a59c8c4eb33c49fdb7018699b423398d98ea60",
+          "md5": "42063a9f3f0ded4e54543a128c1ba82a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kscript-tool-1.1.21-javadoc.jar",
+          "url": "kscript-tool-1.1.21-javadoc.jar",
+          "size": 392127,
+          "sha512": "1d0dd49c6665f9d41a68bcb12736a4f499b5daa29ba5fcb1a7f73f8f2eedbd9b06d449cfd53de2a10e0bfbe0d307923060935f81360604337314263e954af61b",
+          "sha256": "c45412e86b65eb5c9480145949e4c88f2ee2714b3cff27221f11ee35ec857436",
+          "sha1": "222cb4549f8d6b320308eaf2f0f00e4e5cd367db",
+          "md5": "8903a701ac13884ddbf5e0d7b5c9762f"
+        }
+      ]
+    }
+  ]
+}
