@@ -1,0 +1,214 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "livekit-android",
+    "version": "2.13.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.webrtc-sdk",
+          "module": "android-prefixed",
+          "version": {
+            "requires": "125.6422.07"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.github.davidliu",
+          "module": "audioswitch",
+          "version": {
+            "requires": "89582c47c9a04c62f90aa5e57251af4800a62c9a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "livekit-android-2.13.1.aar",
+          "url": "livekit-android-2.13.1.aar",
+          "size": 2922358,
+          "sha512": "b4efc03bc7c89fd6a0f3eddc70a2b5bc76903ae8abb259fd82861c8ac4aa102e1e0f22fad5d59a5ca09a7f81d58342ce02d85fd4bbeb0995c2427f2dac866950",
+          "sha256": "b33d26b606107b86c875b278d44009955027b79073350672400c82f2a5a074d3",
+          "sha1": "5c08842c469cbb30387c58cd1455354f5b012c1c",
+          "md5": "3e069a0cc287163c122a5d8b8857f8fb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "3.22.0"
+          }
+        },
+        {
+          "group": "javax.sip",
+          "module": "android-jain-sip-ri",
+          "version": {
+            "requires": "1.3.0-91"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.46"
+          }
+        },
+        {
+          "group": "com.github.ajalt",
+          "module": "timberkt",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.vdurmont",
+          "module": "semver4j",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "io.github.webrtc-sdk",
+          "module": "android-prefixed",
+          "version": {
+            "requires": "125.6422.07"
+          }
+        },
+        {
+          "group": "com.github.davidliu",
+          "module": "audioswitch",
+          "version": {
+            "requires": "89582c47c9a04c62f90aa5e57251af4800a62c9a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "livekit-android-2.13.1.aar",
+          "url": "livekit-android-2.13.1.aar",
+          "size": 2922358,
+          "sha512": "b4efc03bc7c89fd6a0f3eddc70a2b5bc76903ae8abb259fd82861c8ac4aa102e1e0f22fad5d59a5ca09a7f81d58342ce02d85fd4bbeb0995c2427f2dac866950",
+          "sha256": "b33d26b606107b86c875b278d44009955027b79073350672400c82f2a5a074d3",
+          "sha1": "5c08842c469cbb30387c58cd1455354f5b012c1c",
+          "md5": "3e069a0cc287163c122a5d8b8857f8fb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "livekit-android-2.13.1-sources.jar",
+          "url": "livekit-android-2.13.1-sources.jar",
+          "size": 778313,
+          "sha512": "329f876629b33ccf2b2a45abc6549100b5cb0be07650856a10dbb92d39f8d449926ba3a8a8cc089b256ed7a6c7bf2b8ab58f1b3957f2a31ae96fa8f09ee3fda6",
+          "sha256": "e7c85a3bfd7c330e9a3a18b0dbc5e87a15fa1097dacd2317eb1566cec31731f4",
+          "sha1": "4337cc335dff1e706bad59f1842a876ab8d9025a",
+          "md5": "722e145e0aa5fa2a8a8085ee7796bb2e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "livekit-android-2.13.1-javadoc.jar",
+          "url": "livekit-android-2.13.1-javadoc.jar",
+          "size": 5755938,
+          "sha512": "ff7daddedad5e6ebbcdc853ad11dd031d71ff0cf5ccd399cea0b856c5316120bc16de043d7e99b67de589b61c0a1d37d3b3918de8cb1047564c49d43dd0e2e67",
+          "sha256": "af24f75972193c76e1ed47bb4a142b6802de17ae3ca69ee4cdadf24e48477c55",
+          "sha1": "a0218a142d2438aed173a9ae461c67b03cc42234",
+          "md5": "84d70b2dd042c345a119d5fc88353a36"
+        }
+      ]
+    }
+  ]
+}
