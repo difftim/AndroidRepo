@@ -54,7 +54,7 @@
           "group": "androidx.core",
           "module": "core-ktx",
           "version": {
-            "requires": "1.15.0"
+            "requires": "1.13.1"
           }
         },
         {

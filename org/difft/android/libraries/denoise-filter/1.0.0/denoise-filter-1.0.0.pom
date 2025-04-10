@@ -42,7 +42,7 @@
     <dependency>
       <groupId>androidx.core</groupId>
       <artifactId>core-ktx</artifactId>
-      <version>1.15.0</version>
+      <version>1.13.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
