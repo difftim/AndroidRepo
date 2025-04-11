@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "denoise-filter",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "denoise-filter-1.0.1.aar",
+          "url": "denoise-filter-1.0.1.aar",
+          "size": 5431817,
+          "sha512": "1a5110700ee412ba502724f223623c58ade68070e982de7487f5adf8d1865402e16d62c9d6b5aa329782d0f1a0726ea90c6ece286dceba0f3757fb5827f78773",
+          "sha256": "2a0ad6a3608aa539d00a640ad50f1e88a4522614847163a7703e48d4694a264f",
+          "sha1": "936f09c9418cd3793a6dec5ec50d5318f211846e",
+          "md5": "5781c9578788df4b3c864763ebc6f7c6"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.difft.android.libraries",
+          "module": "livekit-android",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "com.github.davidliu",
+          "module": "audioswitch",
+          "version": {
+            "requires": "89582c47c9a04c62f90aa5e57251af4800a62c9a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "denoise-filter-1.0.1.aar",
+          "url": "denoise-filter-1.0.1.aar",
+          "size": 5431817,
+          "sha512": "1a5110700ee412ba502724f223623c58ade68070e982de7487f5adf8d1865402e16d62c9d6b5aa329782d0f1a0726ea90c6ece286dceba0f3757fb5827f78773",
+          "sha256": "2a0ad6a3608aa539d00a640ad50f1e88a4522614847163a7703e48d4694a264f",
+          "sha1": "936f09c9418cd3793a6dec5ec50d5318f211846e",
+          "md5": "5781c9578788df4b3c864763ebc6f7c6"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "denoise-filter-1.0.1-sources.jar",
+          "url": "denoise-filter-1.0.1-sources.jar",
+          "size": 3523,
+          "sha512": "ddbed927925c1e62240394bc771c656d2b1b4914356c2ff7da938553e589046fd8e2a1fa25980d93da4776cf5cf07d610b0a2f49703c62e30b0982cfae05a8a3",
+          "sha256": "964c69fb4caad04061015e2d710b29cc28cddafa9b02970ff22a07725df35b80",
+          "sha1": "08ad4a291cb815764b24299121137c73933af56c",
+          "md5": "42131abd1cb0614dd999c297a4406e34"
+        }
+      ]
+    }
+  ]
+}
