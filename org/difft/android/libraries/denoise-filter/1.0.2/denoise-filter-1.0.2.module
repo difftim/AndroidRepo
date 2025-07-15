@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "denoise-filter",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "denoise-filter-1.0.2.aar",
+          "url": "denoise-filter-1.0.2.aar",
+          "size": 5431909,
+          "sha512": "646078b14a69cff15addca3d24cd66bfae6446ed001bf524b11b0aa6aa0b675d733abbf2349eba09bc1a195986a7bd9f61a469cfb291b2833853c9507dd6ddc6",
+          "sha256": "82d47cf04fb2c69e21e21b01d8df95cbf633e50de3af02cda1c32acb05e56c87",
+          "sha1": "e28c26c422f1c47ae852a9d2791ff0d0054505a4",
+          "md5": "6f200a2413eabb6a92b96e95ce497ce1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.difft.android.libraries",
+          "module": "livekit-android",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "com.github.davidliu",
+          "module": "audioswitch",
+          "version": {
+            "requires": "89582c47c9a04c62f90aa5e57251af4800a62c9a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "denoise-filter-1.0.2.aar",
+          "url": "denoise-filter-1.0.2.aar",
+          "size": 5431909,
+          "sha512": "646078b14a69cff15addca3d24cd66bfae6446ed001bf524b11b0aa6aa0b675d733abbf2349eba09bc1a195986a7bd9f61a469cfb291b2833853c9507dd6ddc6",
+          "sha256": "82d47cf04fb2c69e21e21b01d8df95cbf633e50de3af02cda1c32acb05e56c87",
+          "sha1": "e28c26c422f1c47ae852a9d2791ff0d0054505a4",
+          "md5": "6f200a2413eabb6a92b96e95ce497ce1"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "denoise-filter-1.0.2-sources.jar",
+          "url": "denoise-filter-1.0.2-sources.jar",
+          "size": 3603,
+          "sha512": "087f3f524772dde793044fda139e4d07f3b98444c217941a1dafecc8df343feb99212b63216f5768aff5270d6debc863c230e61b825fb94e1b2022bac12bf7ee",
+          "sha256": "db86e18b3bcd80ab5211d2a54a6249e7217522969174aa4382ece3dedd5b943f",
+          "sha1": "8117f57ae235b12f9753d9295c0ef3d3dfac290b",
+          "md5": "6e02f88095510803633a5aa8ee69467c"
+        }
+      ]
+    }
+  ]
+}
