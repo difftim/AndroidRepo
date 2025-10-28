@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "android-prefixed",
+    "version": "137.7151.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "android-prefixed-137.7151.12.aar",
+          "url": "android-prefixed-137.7151.12.aar",
+          "size": 22042508,
+          "sha512": "30d0b9e6e482e5d676c25a57852b69fcb87e42a82b4113e637f4cd02a41f6ad3d392dd3d7ccc25aba1d6256bab859a720f064bc26866b051987769416e1a2d67",
+          "sha256": "7f720632225b02e55aece4b02f46699982531c12b32873af91533777c1da372e",
+          "sha1": "f456989419380ada5e81679121e002cbd8fcf2c4",
+          "md5": "3ed3550ca08f462495efbfb7393d937d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android-prefixed-137.7151.12.aar",
+          "url": "android-prefixed-137.7151.12.aar",
+          "size": 22042508,
+          "sha512": "30d0b9e6e482e5d676c25a57852b69fcb87e42a82b4113e637f4cd02a41f6ad3d392dd3d7ccc25aba1d6256bab859a720f064bc26866b051987769416e1a2d67",
+          "sha256": "7f720632225b02e55aece4b02f46699982531c12b32873af91533777c1da372e",
+          "sha1": "f456989419380ada5e81679121e002cbd8fcf2c4",
+          "md5": "3ed3550ca08f462495efbfb7393d937d"
+        }
+      ]
+    }
+  ]
+}
