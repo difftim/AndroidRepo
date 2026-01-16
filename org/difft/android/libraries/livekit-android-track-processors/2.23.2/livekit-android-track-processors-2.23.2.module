@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "livekit-android-track-processors",
+    "version": "2.23.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "livekit-android-track-processors-2.23.2.aar",
+          "url": "livekit-android-track-processors-2.23.2.aar",
+          "size": 41706,
+          "sha512": "5f74eb5094a0fa26bb5a11cf9703a0949b30f0872062a1a34e50f8403ad91ecbbe767f3204e5b0e8443f5a3bb7c6558fd90b1293e0a62e7707ef211d003eecbb",
+          "sha256": "cb0ff357e78c348a69c6996455a42f34cbcdc6f6b7c27dc3b4fe5eecfb0798b5",
+          "sha1": "c8673153433226217f9008017ff617dd7ff4b0b4",
+          "md5": "76626bb66a8d6dbe6a2717c9484bb8f2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.difft.android.libraries",
+          "module": "livekit-android",
+          "version": {
+            "requires": "2.23.2"
+          }
+        },
+        {
+          "group": "org.difft.android.libraries",
+          "module": "livekit-android-camerax",
+          "version": {
+            "requires": "2.23.2"
+          }
+        },
+        {
+          "group": "com.github.ajalt",
+          "module": "timberkt",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "io.github.webrtc-sdk",
+          "module": "android-prefixed",
+          "version": {
+            "requires": "137.7151.05"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "segmentation-selfie",
+          "version": {
+            "requires": "16.0.0-beta6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "livekit-android-track-processors-2.23.2.aar",
+          "url": "livekit-android-track-processors-2.23.2.aar",
+          "size": 41706,
+          "sha512": "5f74eb5094a0fa26bb5a11cf9703a0949b30f0872062a1a34e50f8403ad91ecbbe767f3204e5b0e8443f5a3bb7c6558fd90b1293e0a62e7707ef211d003eecbb",
+          "sha256": "cb0ff357e78c348a69c6996455a42f34cbcdc6f6b7c27dc3b4fe5eecfb0798b5",
+          "sha1": "c8673153433226217f9008017ff617dd7ff4b0b4",
+          "md5": "76626bb66a8d6dbe6a2717c9484bb8f2"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "livekit-android-track-processors-2.23.2-sources.jar",
+          "url": "livekit-android-track-processors-2.23.2-sources.jar",
+          "size": 33141,
+          "sha512": "ae03d5371c2672888b17fb79b685043a8d5c193fd56adf4c5d78afee542d136d3bfb458ff07fcc02de55de866fe60b4842cdab3c791e43392086bb9df61c5a06",
+          "sha256": "f3f2bd90c62abca40abc026330f4c6d8da4bee3c956dce44dac19c445cd1b8b1",
+          "sha1": "63f6331b1090ceb8e17b87fb827622a27629a0b9",
+          "md5": "b7b5c87c519e0bea23584cd2641ee032"
+        }
+      ]
+    }
+  ]
+}
