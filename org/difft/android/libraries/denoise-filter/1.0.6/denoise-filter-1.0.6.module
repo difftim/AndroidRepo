@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "denoise-filter",
+    "version": "1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "denoise-filter-1.0.6.aar",
+          "url": "denoise-filter-1.0.6.aar",
+          "size": 5431893,
+          "sha512": "2e2c6b0c98f917d444bb0f1649b9b203728db3959eca0e7f816d37fa9960903397356a1b2125bf37f858251f0636e8219f90c240ebbdd1f529166c029331002a",
+          "sha256": "b48b61b562c31fdb7016f8bfdbf71cf428ab4cfc8563831d4cdec55516f4cb7d",
+          "sha1": "b932ce6081a2500936e9079eee4d99c1d4838fcf",
+          "md5": "9df546abf58c75a690cee95757ce30d7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.difft.android.libraries",
+          "module": "livekit-android",
+          "version": {
+            "requires": "2.23.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "denoise-filter-1.0.6.aar",
+          "url": "denoise-filter-1.0.6.aar",
+          "size": 5431893,
+          "sha512": "2e2c6b0c98f917d444bb0f1649b9b203728db3959eca0e7f816d37fa9960903397356a1b2125bf37f858251f0636e8219f90c240ebbdd1f529166c029331002a",
+          "sha256": "b48b61b562c31fdb7016f8bfdbf71cf428ab4cfc8563831d4cdec55516f4cb7d",
+          "sha1": "b932ce6081a2500936e9079eee4d99c1d4838fcf",
+          "md5": "9df546abf58c75a690cee95757ce30d7"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "denoise-filter-1.0.6-sources.jar",
+          "url": "denoise-filter-1.0.6-sources.jar",
+          "size": 3613,
+          "sha512": "264811f05280a992c03e7b3337a5e1ee6fff3186a85f0ffb5229cb0997002def0ca1a94098b487735837f0857585c86afaecfcbb348160b44b9ce84bca06b119",
+          "sha256": "51b841296fda2428b0d6de6b958e77f4c9f024ae9b025b3f79a52782c34f9c59",
+          "sha1": "430ac27dd943f0573a845214e188bcac1fa0f5e3",
+          "md5": "98ccd42829d767f3834c1d0f3eee0b41"
+        }
+      ]
+    }
+  ]
+}

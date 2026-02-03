@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "ttsignal",
+    "version": "1.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ttsignal-1.0.7.aar",
+          "url": "ttsignal-1.0.7.aar",
+          "size": 2613610,
+          "sha512": "90ff0ee608c4ed2ae00f6a40d3ef95aade7b11097466f1132ca346a53e3781b07a26772e4fe4a94777401714960b4b52aa462809dfbbbad7e47ec993ff40e11d",
+          "sha256": "eb5a75a104441e8a78e479e6e5b6829f2b9e83d73c9c76495ca6897cba5c1de6",
+          "sha1": "46e0649eec520d611545d370215884c50d051497",
+          "md5": "6d308ac58c3750aebde53bea44a71fb5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ttsignal-1.0.7.aar",
+          "url": "ttsignal-1.0.7.aar",
+          "size": 2613610,
+          "sha512": "90ff0ee608c4ed2ae00f6a40d3ef95aade7b11097466f1132ca346a53e3781b07a26772e4fe4a94777401714960b4b52aa462809dfbbbad7e47ec993ff40e11d",
+          "sha256": "eb5a75a104441e8a78e479e6e5b6829f2b9e83d73c9c76495ca6897cba5c1de6",
+          "sha1": "46e0649eec520d611545d370215884c50d051497",
+          "md5": "6d308ac58c3750aebde53bea44a71fb5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ttsignal-1.0.7-sources.jar",
+          "url": "ttsignal-1.0.7-sources.jar",
+          "size": 5967,
+          "sha512": "47a9ae3ff9e4b0e12cc376541e226cb317ad1f82dbdf54f3058732e610a5dcf98f992b5b2816ec04267a60c29557a23523977a08bf6259f167df42361132b234",
+          "sha256": "2fcbeb5de38b6bd52dbbd7b2ea6b803a735089db3d064f7d834282a314cbd215",
+          "sha1": "12801c94305a61238bfb9b2a79c54a547ef64b65",
+          "md5": "6754a8d08608abb2f560c43a013a8095"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ttsignal-1.0.7-javadoc.jar",
+          "url": "ttsignal-1.0.7-javadoc.jar",
+          "size": 300852,
+          "sha512": "f1345e2a73258f059c75070b45848302b0b996eb10d8975543d7ee3ace78730a983aebbd092a40f7e37076391d2ab91c15c107c0e71f4307f89a49a6278c8e4a",
+          "sha256": "cf89c1c0228113650c95b0e4dbddacd61a2286dfe633642749b184c7a0a22fc5",
+          "sha1": "334bcd9db83bb8d8776670b3c4469a2d7a84d60a",
+          "md5": "0f9ac6eaa0f4aa1a66077eb5ddef5b7b"
+        }
+      ]
+    }
+  ]
+}
