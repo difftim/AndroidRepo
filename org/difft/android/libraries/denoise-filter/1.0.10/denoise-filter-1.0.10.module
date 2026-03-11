@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "denoise-filter",
+    "version": "1.0.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "denoise-filter-1.0.10.aar",
+          "url": "denoise-filter-1.0.10.aar",
+          "size": 5431990,
+          "sha512": "614623a6e078e546ba01eb7a842f2458d37944107542dd172f0dd89b93337317e80260d07e129e5f51024deb7b280eb3d1fb37ad6b9505daa9988f4ad996b226",
+          "sha256": "9652516b31bd03387b51438337c8c275991b2aa7cb434923ac89ddc249214c97",
+          "sha1": "c4ffe643eadffa2460299dd5f07186913e99891c",
+          "md5": "351d71ab551fedf279120c873187982a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.difft.android.libraries",
+          "module": "livekit-android",
+          "version": {
+            "requires": "2.23.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "denoise-filter-1.0.10.aar",
+          "url": "denoise-filter-1.0.10.aar",
+          "size": 5431990,
+          "sha512": "614623a6e078e546ba01eb7a842f2458d37944107542dd172f0dd89b93337317e80260d07e129e5f51024deb7b280eb3d1fb37ad6b9505daa9988f4ad996b226",
+          "sha256": "9652516b31bd03387b51438337c8c275991b2aa7cb434923ac89ddc249214c97",
+          "sha1": "c4ffe643eadffa2460299dd5f07186913e99891c",
+          "md5": "351d71ab551fedf279120c873187982a"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "denoise-filter-1.0.10-sources.jar",
+          "url": "denoise-filter-1.0.10-sources.jar",
+          "size": 3461,
+          "sha512": "a57393da889d799600e83870bb8fda85a88c7beff9209acd5d4db113b0c99dbbb2814644f3ed7b2b5879f31c2b90b3f0925b2996b20e78ddaf3d564289f4efad",
+          "sha256": "f9f210bafdd46e6bf0ccc51f35f275a7c4d5cdb10bfd18e19acddf7cc11b46ac",
+          "sha1": "af9bb78734d3aac4e743d59c892182ae2a05a745",
+          "md5": "984151feb50f568d0bd21fe004ffbf61"
+        }
+      ]
+    }
+  ]
+}
