@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "audioswitch",
+    "version": "1.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audioswitch-1.2.1.aar",
+          "url": "audioswitch-1.2.1.aar",
+          "size": 96787,
+          "sha512": "429789bc6476dcab93adbc489dc48e1d2e687f26c54141b0adb5c0db13ac97d8ea6f6f384517282954f1451cc9999597bc50954c74d0c3d74ebea5e43de01d15",
+          "sha256": "7b924883c34ea28f16271d66754d395a133dfc1471b66c90918137b513535914",
+          "sha1": "d7c42150c90a4964758eaff2abf1cc905db4c4a2",
+          "md5": "43e08fc34b9b7d15df753a3ecb727108"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audioswitch-1.2.1.aar",
+          "url": "audioswitch-1.2.1.aar",
+          "size": 96787,
+          "sha512": "429789bc6476dcab93adbc489dc48e1d2e687f26c54141b0adb5c0db13ac97d8ea6f6f384517282954f1451cc9999597bc50954c74d0c3d74ebea5e43de01d15",
+          "sha256": "7b924883c34ea28f16271d66754d395a133dfc1471b66c90918137b513535914",
+          "sha1": "d7c42150c90a4964758eaff2abf1cc905db4c4a2",
+          "md5": "43e08fc34b9b7d15df753a3ecb727108"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "audioswitch-1.2.1-sources.jar",
+          "url": "audioswitch-1.2.1-sources.jar",
+          "size": 46749,
+          "sha512": "c2f819ce786fa2f6c86ada650d056d50e6cefee1414bc522f0059706dc15eac0899bdd1a94a0b96f73a9e27bb231354431ef2e26c1862d86fcaf6176bc8c0a10",
+          "sha256": "017905eeb0bd970850e8cafbaf27e195007c69ad57752e7f87d2d3bcf95bbfa8",
+          "sha1": "e5209a2e3d9dde7967084754365d43b3804bfca3",
+          "md5": "33d23e289bc09eac7a17a5fe9228f09c"
+        }
+      ]
+    }
+  ]
+}

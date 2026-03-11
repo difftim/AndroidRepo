@@ -77,7 +77,7 @@
           "group": "org.difft.android.libraries",
           "module": "ttsignal",
           "version": {
-            "requires": "1.0.7"
+            "requires": "2.23.2.5"
           }
         },
         {
