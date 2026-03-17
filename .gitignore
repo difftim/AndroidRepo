@@ -1,3 +1,12 @@
 maven-metadata-local.xml
-.DS_Store
+**/.DS_Store
 *.sh
+
+*/
+!wu/
+!wu/**
+!org/
+!org/difft/
+!org/difft/**
+org/difft/**/.DS_Store
+org/difft/**/maven-metadata-local.xml
