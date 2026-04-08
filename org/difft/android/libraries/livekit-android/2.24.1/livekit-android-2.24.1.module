@@ -1,0 +1,228 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "livekit-android",
+    "version": "2.24.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.webrtc-sdk",
+          "module": "android-prefixed",
+          "version": {
+            "requires": "144.7559.01"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.difft.android.libraries",
+          "module": "audioswitch",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.vdurmont",
+          "module": "semver4j",
+          "version": {
+            "requires": "3.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "livekit-android-2.24.1.aar",
+          "url": "livekit-android-2.24.1.aar",
+          "size": 4089560,
+          "sha512": "986bdceb6fb8f21b60b9645f3a29b4edbf04f460abe5196a23bc0f6a1417edb801a194f173d296e738f1d59551d5cc4ad85a52e657ce513cd9524af2eddbdf0d",
+          "sha256": "2a1bc5272892c42ce6db778d47c2b05ff6cd24f2c87968cc29271c74f4a01ae3",
+          "sha1": "91050dc7cde95a7758b2f8d5c4dd857fb7e16964",
+          "md5": "df2c7cf1422d60cfe41a7d4a5e0c14c9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.difft.android.libraries",
+          "module": "ttsignal",
+          "version": {
+            "requires": "2.24.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.auth0.android",
+          "module": "jwtdecode",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "3.25.5"
+          }
+        },
+        {
+          "group": "javax.sip",
+          "module": "android-jain-sip-ri",
+          "version": {
+            "requires": "1.3.0-91"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.51.1"
+          }
+        },
+        {
+          "group": "io.github.webrtc-sdk",
+          "module": "android-prefixed",
+          "version": {
+            "requires": "144.7559.01"
+          }
+        },
+        {
+          "group": "org.difft.android.libraries",
+          "module": "audioswitch",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.vdurmont",
+          "module": "semver4j",
+          "version": {
+            "requires": "3.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "livekit-android-2.24.1.aar",
+          "url": "livekit-android-2.24.1.aar",
+          "size": 4089560,
+          "sha512": "986bdceb6fb8f21b60b9645f3a29b4edbf04f460abe5196a23bc0f6a1417edb801a194f173d296e738f1d59551d5cc4ad85a52e657ce513cd9524af2eddbdf0d",
+          "sha256": "2a1bc5272892c42ce6db778d47c2b05ff6cd24f2c87968cc29271c74f4a01ae3",
+          "sha1": "91050dc7cde95a7758b2f8d5c4dd857fb7e16964",
+          "md5": "df2c7cf1422d60cfe41a7d4a5e0c14c9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "livekit-android-2.24.1-sources.jar",
+          "url": "livekit-android-2.24.1-sources.jar",
+          "size": 1022271,
+          "sha512": "e1658dd78edf03b36f7c46924620bea68d5909006c9da8e492fbfafe90ef8d730f769ae9131b05b656b9d3d8d4d042f1773f692bf686e406de7ca911a82bf86d",
+          "sha256": "0d925f7c09f1599c02018867d78eaf8727d89f671e5edc720acaa50f45c6ddb3",
+          "sha1": "37aa0b30a7c370cb64623be61a3342f71e66f928",
+          "md5": "57e98b127ca7acce41aaa48bd72c9488"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "livekit-android-2.24.1-javadoc.jar",
+          "url": "livekit-android-2.24.1-javadoc.jar",
+          "size": 7471420,
+          "sha512": "bd5f1ce5b5ec026436656e78602a01470f168fcae0173610c1135e12c8659c0e7cca1c94df3e9c97ae133763847dd52475fb5fb30c3b8b4c3679fcdad19eb64c",
+          "sha256": "17a3567d1ace76d2cb5560cfadcc28293c50163448e8ffae556b1308994639fb",
+          "sha1": "f9a46e4c47a1c117fb765d2619871fe659f5b335",
+          "md5": "51e9489b04293c5dde998a0931ca8cc1"
+        }
+      ]
+    }
+  ]
+}
