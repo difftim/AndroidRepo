@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "dtproto",
+    "version": "3.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.14.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "jna",
+              "type": "aar"
+            }
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dtproto-3.1.0.aar",
+          "url": "dtproto-3.1.0.aar",
+          "size": 1039060,
+          "sha512": "c49b343db5836931126fac27dff36f4da643430c7f9d3e06b93efa08308d7e496ca66740c4592641cd3895c5f791dcaaf156fc5b65a243a70b2151d3531d6e1b",
+          "sha256": "df09c105b3f53d50d1fe67b668bc2c430ad392cf3c865581895996312343dabd",
+          "sha1": "99d02b38a675fd46ec6e76ae89e56c510c5a12de",
+          "md5": "a3a56b7b31da4453ec09f88cc1979b1e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.14.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "jna",
+              "type": "aar"
+            }
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dtproto-3.1.0.aar",
+          "url": "dtproto-3.1.0.aar",
+          "size": 1039060,
+          "sha512": "c49b343db5836931126fac27dff36f4da643430c7f9d3e06b93efa08308d7e496ca66740c4592641cd3895c5f791dcaaf156fc5b65a243a70b2151d3531d6e1b",
+          "sha256": "df09c105b3f53d50d1fe67b668bc2c430ad392cf3c865581895996312343dabd",
+          "sha1": "99d02b38a675fd46ec6e76ae89e56c510c5a12de",
+          "md5": "a3a56b7b31da4453ec09f88cc1979b1e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dtproto-3.1.0-sources.jar",
+          "url": "dtproto-3.1.0-sources.jar",
+          "size": 10172,
+          "sha512": "a43ee007d03766fc69236c8bce51f24631f9be7835e387786fa74364c3c409690ad5a93baf0094f7e5c505f9bce25f4acb6dfa877635239c1477c72e0f7e7f40",
+          "sha256": "484b03dae4d8566c1374c9ec6f4b4df7f30c456a6227e49bf1101688c213a462",
+          "sha1": "7a0182656fcf242ff77307421a46f579b165fb51",
+          "md5": "88f2162f8b109040096741e50ff6d5e2"
+        }
+      ]
+    }
+  ]
+}
