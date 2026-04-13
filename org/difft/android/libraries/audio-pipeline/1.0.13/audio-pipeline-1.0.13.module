@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "audio-pipeline",
+    "version": "1.0.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-pipeline-1.0.13.aar",
+          "url": "audio-pipeline-1.0.13.aar",
+          "size": 70549487,
+          "sha512": "31564ecbc634febf85f1d2740917dd5cad04532449ceb1c96306a2d9ab31e6a725ea9f3e2b18638042b0dba0e08655ea7fa0b193ccb2c67fb50faade08451ff6",
+          "sha256": "066ea5272695ffaf6adc1664a2803cda599c8787a6927787b267817556590139",
+          "sha1": "82d9ecdcac3fe0723136c7ce498c41f69c1115d4",
+          "md5": "24fdb1259cd45d3e8cdf814d54209cb3"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.difft.android.libraries",
+          "module": "livekit-android",
+          "version": {
+            "requires": "2.23.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-pipeline-1.0.13.aar",
+          "url": "audio-pipeline-1.0.13.aar",
+          "size": 70549487,
+          "sha512": "31564ecbc634febf85f1d2740917dd5cad04532449ceb1c96306a2d9ab31e6a725ea9f3e2b18638042b0dba0e08655ea7fa0b193ccb2c67fb50faade08451ff6",
+          "sha256": "066ea5272695ffaf6adc1664a2803cda599c8787a6927787b267817556590139",
+          "sha1": "82d9ecdcac3fe0723136c7ce498c41f69c1115d4",
+          "md5": "24fdb1259cd45d3e8cdf814d54209cb3"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "audio-pipeline-1.0.13-sources.jar",
+          "url": "audio-pipeline-1.0.13-sources.jar",
+          "size": 5707,
+          "sha512": "72031fa876a505d196f2fb5488e15defcf62b231bd5c1a4c9e21e9f27655c81fd182d95cbf30dde224ae6ab68a1d3562be13bb0240805428963aa3dbdca2a5f7",
+          "sha256": "0baa615b27106161cff7266d76825dc3809fa71d7d5d0fc10f20ae02b07e9e04",
+          "sha1": "b39758b866f0e7ffe287901a95a4aa2d0c36b065",
+          "md5": "e6ef7dbf9dc6ce23717dfd353fe20070"
+        }
+      ]
+    }
+  ]
+}
