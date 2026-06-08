@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.difft.android.libraries",
+    "module": "livekit-android-camerax",
+    "version": "2.24.1.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.difft.android.libraries",
+          "module": "livekit-android",
+          "version": {
+            "requires": "2.24.1.10"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "livekit-android-camerax-2.24.1.10.aar",
+          "url": "livekit-android-camerax-2.24.1.10.aar",
+          "size": 46225,
+          "sha512": "cafbb1e31a2b01c371861993e8e3f61ab6e2125ddf35494aff14b76bd2a811d63e32e27be16b009acf8160450e48f30064085ce85ec3e09feac8b27b63bfadbf",
+          "sha256": "a6da83634b93d064574c9653f8ea7f1cb921ee43e6bed6d45e7305f4f3b4605c",
+          "sha1": "f97ec572b4eaad1a836abbd646cf7e4a27f35a69",
+          "md5": "c0f7e44a191eea4d85270fb717f1f2d7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.difft.android.libraries",
+          "module": "livekit-android",
+          "version": {
+            "requires": "2.24.1.10"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "livekit-android-camerax-2.24.1.10.aar",
+          "url": "livekit-android-camerax-2.24.1.10.aar",
+          "size": 46225,
+          "sha512": "cafbb1e31a2b01c371861993e8e3f61ab6e2125ddf35494aff14b76bd2a811d63e32e27be16b009acf8160450e48f30064085ce85ec3e09feac8b27b63bfadbf",
+          "sha256": "a6da83634b93d064574c9653f8ea7f1cb921ee43e6bed6d45e7305f4f3b4605c",
+          "sha1": "f97ec572b4eaad1a836abbd646cf7e4a27f35a69",
+          "md5": "c0f7e44a191eea4d85270fb717f1f2d7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "livekit-android-camerax-2.24.1.10-sources.jar",
+          "url": "livekit-android-camerax-2.24.1.10-sources.jar",
+          "size": 12887,
+          "sha512": "416d63e473c30a7e831f7a51ea4a4a054ec631ac51dea25f59a689c74aa018d0feacaa4b706fa24c2f4e5f94fc8cfbda86cd8016db21240f993afcf548a129c2",
+          "sha256": "60dfade43c747c759624abde07f6b4130df43b84ddd21cbf3777c2aceddd603a",
+          "sha1": "3ab38567d3373eae87142714ca670c8e0d5dc929",
+          "md5": "0cef0041e33e13e341c98ccebfe47566"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "livekit-android-camerax-2.24.1.10-javadoc.jar",
+          "url": "livekit-android-camerax-2.24.1.10-javadoc.jar",
+          "size": 289970,
+          "sha512": "30a473ccc9de93db2075fa55c387ff1fd22ad49426667f0d2c0066f958a1106aaa2aa4b191663caf8bef766bf122f15b8708e246eb047f3f75b63b2724a5bd5b",
+          "sha256": "3bd11c1b390af8ec293c1ed256896b4d6d16b0b0ef2f762a405980e5ba4edbcc",
+          "sha1": "3fdfd925c1d72892cdea7990d54bb50ce4bef6b5",
+          "md5": "1abed63075fffc544dbadc86871cc758"
+        }
+      ]
+    }
+  ]
+}
