@@ -3,8 +3,8 @@
   <groupId>org.difft.android.libraries</groupId>
   <artifactId>livekit-android</artifactId>
   <versioning>
-    <latest>2.24.1.13</latest>
-    <release>2.24.1.13</release>
+    <latest>2.24.1.14</latest>
+    <release>2.24.1.14</release>
     <versions>
       <version>2.11.0</version>
       <version>2.11.0.1</version>
@@ -74,7 +74,8 @@
       <version>2.24.1.11</version>
       <version>2.24.1.12</version>
       <version>2.24.1.13</version>
+      <version>2.24.1.14</version>
     </versions>
-    <lastUpdated>20260616031406</lastUpdated>
+    <lastUpdated>20260617063521</lastUpdated>
   </versioning>
 </metadata>
